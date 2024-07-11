@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Not Found - Charles & Keith</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="error_page">
+            <h1>404</h1>
+            <p>Looks like this page is out of season!</p>
+            <h2>Looking to feed your shoe addiction? Click here!</h2>
+            <button id="homeButton">Go to Homepage</button>
+            <h2>Need some help? Contact us here!</h2>
+            <button id="contactButton">Contact Us</button>
+        </div>
+        
+        <div class="gif">
+            <img src="Images/arrow_gif.gif" alt="">
+        </div>
+
+        <div id="button" onclick="document.getElementById('id01').style.display='block'">
+            <h3>Click <u>here</u> for a surprise!</h3>
+        </div>
+    
+
+            <div id="id01" class="w3-modal" style="display:none;">
+                <div class="w3-modal-content">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <p><img src="Images/discount.png" alt=""></p>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div id="imageContainer">
+            <a href="https://www.charleskeith.com/sg/shoes" id="shoesImage" target="_blank">
+                <img src="Images/shoes.png" alt="Shoes">
+            </a>
+            <a href="https://www.charleskeith.com/sg/bags" id="bagsImage" target="_blank">
+                <img src="Images/bags.png" alt="Bags">
+            </a>
+            <a href="https://www.charleskeith.com/sg/wallets" id="walletImage" target="_blank">
+                <img src="Images/wallet.png" alt="Wallet">
+            </a>
+            <a href="https://www.charleskeith.com/sg/sunglasses" id="sunglassImage" target="_blank">
+                <img src="Images/sunglass.png" alt="Sunglasses">
+            </a>
+        </div>
+
+        <div class="content">
+            <h1><u>ABOUT US</u></h1>
+            <p>Established in 1996, CHARLES & KEITH is a Singaporean fashion label that creates collections- shoes, bags, eyewear, accessories and costume jewellery - that enhance life and work.</p>
+            <p>From a single footwear shop in the suburbs to an international network offering memorable retail experiences both in physical stores and online,</p>
+            <p>CHARLES & KEITH’s humble beginnings are a testament to its challenger spirit,
+            which has put Singapore on the map as a place of originality and creativity.</p>
+            <p><b>If you prefer shopping in person, click the envelope <u>below</u> to find the store closest to you!</b></p>
+            
+    
+            <a href="https://www.charleskeith.com/sg/stores" id="envelope" target="_blank">
+                <img src="Images/envelope.png" alt="Go to Homepage" id="envImage">
+            </a>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

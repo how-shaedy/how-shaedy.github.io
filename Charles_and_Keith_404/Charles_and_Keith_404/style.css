@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(Futura/FuturaPTLight.otf);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('Images/background.png');
+    background-size: cover;
+    height: 2980px;
+    overflow:none;
+    overflow-y: none;
+}
+
+h3 {
+    font-size: 1em;
+    color: #755555;
+    align-items: center;
+    text-align: center;
+    margin-right: -300px;
+    margin-left: -300px;
+    margin-top: 120px; 
+}
+
+
+#error_page {
+    padding-top: 40px;
+    padding-left: 100px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+
+}
+
+
+.content {
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size:8em;
+    margin: 0;
+    color: #ffffff;
+    margin-top: 60px;
+
+}
+
+#button h2 {
+    font-size: 1em;
+    margin-top: 0em;
+    color: #755555;
+}
+
+p {
+    font-size: 3em;
+    color: #ffffff;
+    margin-top: 0em;
+    margin-bottom: 20px;
+    margin-left: 0em;
+    margin-right: 10%;
+}
+
+#homeLink {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    text-decoration: none;
+}
+
+#homeLink h3 {
+    font-size: 1em;
+    color: #755555;
+    margin: 0;
+}
+
+#homeLink h3:hover {
+    color: #a18080;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+
+#imageContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 240px;
+    margin-right: 10px;
+}
+
+
+#imageContainer a {
+    cursor: pointer;
+}
+
+#imageContainer img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover; 
+}
+
+
+#imageContainer a#shoesImage {
+    margin-left: 53px;
+}
+
+#imageContainer a#bagsImage {
+
+}
+
+#imageContainer a#walletImage {
+
+}
+
+#imageContainer a#sunglassImage {
+    margin-right: 50px;
+}
+
+.content {
+    padding: 100px;
+    max-width: 600px;
+    max-height: 1000px;
+    text-align: center;
+    align-items: center;
+    font-size: 0.3em;
+    margin-left: 450px;
+    margin-right: 420px;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 6em;
+    margin-top: 75px;
+    margin-bottom:10px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+.content img {
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+    margin-right:30px;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    color: grey;
+}
+
+
+.w3-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+  }
+  
+  .w3-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 77%; /* Could be more or less, depending on screen size */
+    height: 48%;
+  }
+  
+  .w3-modal-content .w3-button {
+    background-color: #9c9d9c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .w3-modal-content .w3-button:hover {
+    background-color: #484848;
+  }
+
+.w3-modal img {
+    width: 1110px;
+    height: 300px;
+}
+
+
+#button {
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    text-decoration: none;
+}
+
+#button h3:hover {
+    color: #a18080;
+}
+
+.gif {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    text-decoration: none;
+}
+
+.gif img {
+    width: 200px;
+    height: 200px;
+}
